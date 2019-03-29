@@ -1,0 +1,233 @@
+body {
+    background: #2C3E50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:white;
+}
+.a-tag {
+    text-decoration: none;
+    color: white;
+}
+.ps-intro-div {
+    padding: 2%;
+}
+.ps-h2 {
+    color: orange;
+    text-align: center !important;
+    font-family: 'Caveat Brush', cursive;
+}
+.ps-p{
+    color:greenyellow;
+    text-align:center;
+    font-weight:bold;
+}
+.table {
+    color: white;
+}
+.ms-h2{
+    color: orange;
+    text-align: center !important;
+}
+.ms-h5, .ps-h5 {
+    text-align: center;
+}
+.ms-hr, .ps-hr {
+    width: 25%;
+    border: 0.5px solid lightgray;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.row, .r1-cl1, .r1-cl2, .r2-cl1, .r2-cl2 {
+    margin: 0px;
+    padding: 0px;
+}
+.img1 {
+    height: 400px;
+}
+.cl2-h2 {
+    color: orange;
+    padding-left: 1%;
+    font-family: 'Aladin', cursive;
+}
+.cl2-p{
+    padding-left: 2%;
+}
+.rw-hr {
+    border: 1px dashed orange;
+}
+.img2 {
+    height: 500px;
+    width: 100%;
+}
+.description{
+    padding-left:1%;
+}
+.dmit-intro {
+    color: orange;
+    font-family: 'Aladin', cursive;
+}
+.r2-cl1{
+    padding-left:1%;
+}
+.img3 {
+    height: 400px;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+.cpyrights {
+    color: yellow !important;
+}
+
+
+
+/*============ MEDIA QUERIES =============*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 375px) {
+    .card-img {
+        height: 275px !important;
+    }
+    .card-title {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 12px;
+        color:orange;
+    }
+    .card-text {
+        font-size: 10px;
+        color:navy;
+    }
+    .img1 {
+        height: 200px;
+        width: 100%;
+    }
+
+    .img2 {
+        height: 200px;
+    }
+
+    .img3 {
+        height: 200px;
+        width:100%;
+    }
+    footer{
+        font-size:10px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 660px) {
+    .card-img {
+        height: 400px !important;
+    }
+    .card-title {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 15px;
+        color: orange;
+    }
+    .card-text {
+        font-size: 12px;
+        color: navy;
+    }
+    .img1 {
+        height: 400px;
+    }
+
+    .img2 {
+        height: 400px;
+    }
+
+    .img3 {
+        height: 400px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 740px) {
+    .card-img {
+        height: 780px !important;
+    }
+    .card-title {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 15px;
+        color: orange;
+    }
+    .card-text {
+        font-size: 12px;
+        color:navy;
+    }
+    .img1 {
+        height: 442px;
+    }
+
+    .img2 {
+        height: 442px;
+    }
+
+    .img3 {
+        height: 442px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up*/
+@media (min-width: 1200px) {
+    .card-img {
+        height: 780px !important;
+    }
+    .card-title {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 17px;
+        color: orange;
+    }
+    .card-text {
+        font-size: 15px;
+        color: navy;
+    }
+    .img1 {
+        height: 442px;
+    }
+    .img2 {
+        height: 525px;
+    }
+    .img3 {
+        height: 442px;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
