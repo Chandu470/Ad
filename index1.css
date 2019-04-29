@@ -5,6 +5,28 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     color:white;
 }
+.intro {
+    text-align: center;
+}
+.intro-h4 {
+    color: orangered;
+    padding: 0px !important;
+    margin: 0px;
+}
+.intro-h2 {
+    color: yellow;
+    padding: 0px !important;
+    margin: 0px;
+}
+.intro-p{
+    padding:0px;
+    margin:0px;
+}
+.intro-hr {
+    width: 25%;
+    border: 1px ridge white;
+    padding: 0px !important;
+}
 .a-tag {
     text-decoration: none;
     color: white;
